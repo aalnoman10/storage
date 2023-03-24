@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping-cart</title>
+</head>
+
+<body style="text-align: center;">
+    <h1>shopping Cart</h1>
+    <div style="display: flex;flex-direction: column;">
+        <input style="font-size: 1.2rem;" type="text" placeholder="product-name" name="" id="product-name">
+        <input style="font-size: 1.2rem;" type="text" placeholder="product-Quantity" name="" id="product-Quantity">
+        <button onclick="addToCart()" style="font-size: 1.2rem;">Add</button>
+    </div>
+    <div style="text-align: left;">
+        <ul id="shopping-display">
+        </ul>
+    </div>
+    <script src="js/shopping.js"></script>
+</body>
+
+</html>
